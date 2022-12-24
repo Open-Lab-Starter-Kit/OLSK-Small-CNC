@@ -2,6 +2,18 @@
 Open Source CNC Milling machine - Small version - Open Lab Starter Kit
 
 
+Author
+--
+
+OLSK Small CNC has been designed and build by **[InMachines Ingrassia GmbH](https://www.inmachines.net/)** for the **[dtec project](https://dtecbw.de/home/forschung/hsu/projekt-fabcity)** at **[Fab City Hamburg](https://www.fabcity.hamburg/en/)**.
+
+
+
+
+Machine design:
+- **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
+
+
 License
 --
 
