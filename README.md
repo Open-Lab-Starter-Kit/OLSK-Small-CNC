@@ -1,12 +1,12 @@
 
-<div align="center"><h1 style=align="center">OLSK Small CNC</h1></div>
+<div align="center"><h1 style=align="center">OLSK Small CNC V1</h1></div>
 
 <div align="center"><img src="media/OLSK-Small-CNC.jpg" width="100%"></div>
 <div align="center"><i>Open Source CNC Milling machine - Small version - Open Lab Starter Kit</i></div>
 
 <br>
 
-Specifications
+Specifications V1
 --
 
 - cutting area: 600x400x170mm
