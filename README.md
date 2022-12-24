@@ -1,6 +1,19 @@
-# OLSK-Small-CNC
+
 Open Source CNC Milling machine - Small version - Open Lab Starter Kit
 
+<div align="center"><h1 style=align="center">OLSK Small CNC</h1></div>
+
+<div align="center"><img src="media/OLSK-Small-CNC.jpg" width="100%"></div>
+<div align="center"><i>Open Source CNC Milling machine - Small version - Open Lab Starter Kit</i></div>
+
+Specifications
+--
+
+- cutting area: 600x400x170mm
+- frame: solid aluminum
+- motion: ball screws 12 and 16mm
+- guides: 15mm linear rails
+- motors: stepper motor NEMA 24
 
 Author
 --
