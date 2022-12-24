@@ -12,6 +12,10 @@ OLSK Small CNC has been designed and build by **[InMachines Ingrassia GmbH](http
 Machine design:
 - **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
 
+OLSK Partners:
+
+<img src="https://irp.cdn-website.com/2b5ccdcd/dms3rep/multi/OLSK_partners.png" width="80%">
+
 
 License
 --
