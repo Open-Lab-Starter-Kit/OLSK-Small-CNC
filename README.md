@@ -6,10 +6,19 @@ Author
 --
 <img src="https://irp.cdn-website.com/2b5ccdcd/dms3rep/multi/InMachines_Logo_positive_white.png" width="50%">
 
-OLSK Small CNC has been designed and built by **[InMachines Ingrassia GmbH](https://www.inmachines.net/)** for the **[Dtec project](https://dtecbw.de/home/forschung/hsu/projekt-fabcity)** at **[Fab City Hamburg](https://www.fabcity.hamburg/en/)**.
+<br>
+
+OLSK Small CNC has been designed and built by **[InMachines Ingrassia GmbH](https://www.inmachines.net/)**.
 
 Machine design:
 - **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
+
+<br>
+
+
+The machine is part of the **[Open Lab Starter Kit (OLSK)](https://www.inmachines.net/open-lab-starter-kit)** group of open source digital fabrication machines.
+
+OLSK is developed by **[InMachines Ingrassia GmbH](https://www.inmachines.net/)** for the **[Dtec project](https://dtecbw.de/home/forschung/hsu/projekt-fabcity)** at **[Fab City Hamburg](https://www.fabcity.hamburg/en/)**.
 
 OLSK Partners:
 
