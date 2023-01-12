@@ -45,7 +45,10 @@ Specifications V1
 Files
 --
 
+- **[Assembly Workbook](cad)**
 - **[CAD](cad)**
+- **[Firmware](firmware)**
+- **[Sensor PCB](ProbeConverter-Triple)**
 
 Author
 --
