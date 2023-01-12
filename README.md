@@ -6,6 +6,10 @@
 
 <br>
 
+Introduction
+--
+The OLSK Small CNC V1 is a desktop CNC milling machine with innovative, compact and sturdy design. The bed, with a milling volume of 600 x 400 x 170 mm (X x Y x Z), features a powerful vacuum system to hold plates without clamping. It is also adapted to fit different international unit systems to allow the fixation of different vices and other accessories. The Z-axis is compact, with a minimum distance to the linear guides, giving the milling more stability and sturdiness. The linear guides from the Y and Z axis are protected against material chips. The machine also includes a Z-height probe and homing with inductive sensors.
+
 Specifications V1
 --
 
