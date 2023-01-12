@@ -1,0 +1,221 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L fab:R R1
+U 1 1 6081C1EB
+P 5850 4350
+F 0 "R1" V 6057 4350 50  0000 C CNN
+F 1 "10K" V 5966 4350 50  0000 C CNN
+F 2 "Fab:R_1206" V 5780 4350 50  0001 C CNN
+F 3 "~" H 5850 4350 50  0001 C CNN
+	1    5850 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 PROBE_CONN1
+U 1 1 6081C765
+P 5050 4350
+F 0 "PROBE_CONN1" H 4968 4025 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4968 4116 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 5050 4350 50  0001 C CNN
+F 3 "~" H 5050 4350 50  0001 C CNN
+	1    5050 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 4350 5700 4350
+Wire Wire Line
+	5250 4250 5450 4250
+Text GLabel 5450 4250 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5250 4450 5450 4450
+Text GLabel 5450 4450 2    50   Input ~ 0
+24V
+Wire Wire Line
+	7000 3250 7400 3250
+Text GLabel 7400 3250 2    50   Input ~ 0
+24V
+Text GLabel 7400 3150 2    50   Input ~ 0
+GND
+Wire Wire Line
+	6000 4350 6400 4350
+$Comp
+L Transistor_BJT:BC846 Q1
+U 1 1 6082576C
+P 6600 4350
+F 0 "Q1" H 6791 4396 50  0000 L CNN
+F 1 "BC846" H 6791 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6800 4275 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 6600 4350 50  0001 L CNN
+	1    6600 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4550 6700 4850
+Wire Wire Line
+	6700 4150 6700 3850
+Text GLabel 6700 4850 2    50   Input ~ 0
+GND
+Text GLabel 6700 3850 2    50   Input ~ 0
+SIGNAL1
+$Comp
+L Connector:Screw_Terminal_01x02 24V1
+U 1 1 608278C1
+P 6800 3250
+F 0 "24V1" H 6718 2925 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 6718 3016 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6800 3250 50  0001 C CNN
+F 3 "~" H 6800 3250 50  0001 C CNN
+	1    6800 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7000 3150 7400 3150
+Wire Wire Line
+	5150 3400 5550 3400
+Wire Wire Line
+	5150 3500 5550 3500
+Text GLabel 5550 3400 2    50   Input ~ 0
+GND
+Text GLabel 5550 3500 2    50   Input ~ 0
+SIGNAL1
+$Comp
+L fab:R R2
+U 1 1 608B1886
+P 8600 4300
+F 0 "R2" V 8807 4300 50  0000 C CNN
+F 1 "10K" V 8716 4300 50  0000 C CNN
+F 2 "Fab:R_1206" V 8530 4300 50  0001 C CNN
+F 3 "~" H 8600 4300 50  0001 C CNN
+	1    8600 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 PROBE_CONN2
+U 1 1 608B188C
+P 7800 4300
+F 0 "PROBE_CONN2" H 7718 3975 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 7718 4066 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 7800 4300 50  0001 C CNN
+F 3 "~" H 7800 4300 50  0001 C CNN
+	1    7800 4300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 4300 8450 4300
+Wire Wire Line
+	8000 4200 8200 4200
+Text GLabel 8200 4200 2    50   Input ~ 0
+GND
+Wire Wire Line
+	8000 4400 8200 4400
+Text GLabel 8200 4400 2    50   Input ~ 0
+24V
+Wire Wire Line
+	8750 4300 9150 4300
+$Comp
+L Transistor_BJT:BC846 Q2
+U 1 1 608B189B
+P 9350 4300
+F 0 "Q2" H 9541 4346 50  0000 L CNN
+F 1 "BC846" H 9541 4255 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9550 4225 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 9350 4300 50  0001 L CNN
+	1    9350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 4500 9450 4800
+Wire Wire Line
+	9450 4100 9450 3800
+Text GLabel 9450 4800 2    50   Input ~ 0
+GND
+Text GLabel 9450 3800 2    50   Input ~ 0
+SIGNAL2
+Wire Wire Line
+	5150 3600 5550 3600
+Text GLabel 5550 3600 2    50   Input ~ 0
+SIGNAL2
+Wire Wire Line
+	5150 3700 5550 3700
+Text GLabel 5550 3700 2    50   Input ~ 0
+SIGNAL3
+$Comp
+L Connector:Screw_Terminal_01x04 SBASE1
+U 1 1 60918217
+P 4950 3600
+F 0 "SBASE1" H 4868 3175 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 4868 3266 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-4_P5.08mm" H 4950 3600 50  0001 C CNN
+F 3 "~" H 4950 3600 50  0001 C CNN
+	1    4950 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L fab:R R3
+U 1 1 6091D788
+P 5800 5600
+F 0 "R3" V 6007 5600 50  0000 C CNN
+F 1 "10K" V 5916 5600 50  0000 C CNN
+F 2 "Fab:R_1206" V 5730 5600 50  0001 C CNN
+F 3 "~" H 5800 5600 50  0001 C CNN
+	1    5800 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 PROBE_CONN3
+U 1 1 6091D78E
+P 5000 5600
+F 0 "PROBE_CONN3" H 4918 5275 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 4918 5366 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 5000 5600 50  0001 C CNN
+F 3 "~" H 5000 5600 50  0001 C CNN
+	1    5000 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5200 5600 5650 5600
+Wire Wire Line
+	5200 5500 5400 5500
+Text GLabel 5400 5500 2    50   Input ~ 0
+GND
+Wire Wire Line
+	5200 5700 5400 5700
+Text GLabel 5400 5700 2    50   Input ~ 0
+24V
+Wire Wire Line
+	5950 5600 6350 5600
+$Comp
+L Transistor_BJT:BC846 Q3
+U 1 1 6091D79A
+P 6550 5600
+F 0 "Q3" H 6741 5646 50  0000 L CNN
+F 1 "BC846" H 6741 5555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 5525 50  0001 L CIN
+F 3 "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf" H 6550 5600 50  0001 L CNN
+	1    6550 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5800 6650 6100
+Wire Wire Line
+	6650 5400 6650 5100
+Text GLabel 6650 6100 2    50   Input ~ 0
+GND
+Text GLabel 6650 5100 2    50   Input ~ 0
+SIGNAL3
+$EndSCHEMATC
