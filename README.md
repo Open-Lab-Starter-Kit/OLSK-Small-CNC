@@ -45,7 +45,9 @@ Specifications V1
 Files
 --
 
-- **[Assembly Workbook](cad)**
+- **[Assembly Workbook](OLSK_Small_CNC_V1_Workbook.pdf)**
+- **[Wiring Schematic](OLSK_Small_CNC_V1_Wiring Schematic.pdf)**
+- **[BOM](OLSK_Small_CNC_V1_BOM.pdf)**
 - **[CAD](cad)**
 - **[Firmware](firmware)**
 - **[Sensor PCB](ProbeConverter-Triple)**
