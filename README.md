@@ -46,7 +46,7 @@ Files
 --
 
 - **[Assembly Workbook](OLSK_Small_CNC_V1_Workbook.pdf)**
-- **[Wiring Schematic](OLSK_Small_CNC_V1_Wiring_Schematic.pdf)**
+- **[Wiring Schematic](wiring_schematic)**
 - **[BOM](OLSK_Small_CNC_V1_BOM.pdf)**
 - **[CAD](cad)**
 - **[Firmware](firmware)**
