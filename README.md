@@ -51,6 +51,7 @@ Files
 - **[CAD](cad)**
 - **[Firmware](firmware)**
 - **[Sensor PCB](ProbeConverter-Triple)**
+- **[Fusion 360 machine settings](machine settings)**
 
 Author
 --
