@@ -52,6 +52,7 @@ Files
 - **[Firmware](firmware)**
 - **[Sensor PCB](ProbeConverter-Triple)**
 - **[Fusion 360 machine settings](machine_settings)**
+- **[Z tool Sensor detection](Z_Tool_Probe.nc)**
 
 Author
 --
