@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<machine xmlns="http://www.hsmworks.com/xml/2009/machine">
+
+  <vendor>InMachines</vendor>
+
+  <model>Small CNC</model>
+
+  <description>Generic 3-axis</description>
+
+  <control></control>
+
+  <machining additive="no" inspection="no" jet="no" milling="yes" turning="no"/>
+
+  <dimensions depth="0mm" height="0mm" weight="0kg" width="0mm"/>
+
+  <capacities depth="600mm" height="160mm" weight="0kg" width="400mm"/>
+
+  <png128></png128>
+
+  <mtk></mtk>
+
+  <controllerConfigurations></controllerConfigurations>
+
+  <fusion>
+    <model></model>
+  </fusion>
+
+  <custom>
+    <data></data>
+    <name></name>
+    <softwareVersion></softwareVersion>
+    <network ip="" port="" protocol=""/>
+    <serial></serial>
+  </custom>
+
+  <machine_connector capability="no" connectionMethod="Ethernet (TCP/IP)">
+    <application machineConnectorIdent="" machineConnectorIp="127.0.0.1" machineConnectorPath="" machineConnectorPort="50000"/>
+    <broker brokerIp="" brokerPort=""/>
+    <serial_connection baudRate="115200" bits="7" dataBufferSerial="100" flow="XON/XOFF" parity="Even" port="1" stopBits="1"/>
+    <ethernet_connection MDCPort="5051" dataBufferEthernet="10100"/>
+  </machine_connector>
+
+  <coolant options=""/>
+
+  <multiAxis adjust="yes" angle="10deg" bpwRatio="1" cone="3deg" feedrateMethod="fpm" feedrateType="combination" linearizationTolerance="0.040000000000000001mm" maximumFeedrate="9999.9899999999998" method="off" outputTolerance="0.5" reconfigure="no" safePlungeFeedrate="250mm/min" safeRetractDistance="25mm" safeRetractFeedrate="500mm/min" stockExpansion="2.5mm 2.5mm 2.5mm" tolerance="0.040000000000000001mm" virtualToolTip="no"/>
+
+  <tooling maximumToolDiameter="0mm" maximumToolLength="0mm" maximumToolWeight="0kg" numberOfTools="1" toolChanger="no" toolPreload="no"/>
+
+  <machiningTime ratio="1" toolChangeTime="15s"/>
+
+  <capabilities maximumBlockProcessingSpeed="0" maximumFeedrate="0mm/min" workOffsets="100"/>
+
+  <simulation retractOnIndexing="yes" shortestAngularRotation="yes" tableAttachPoint="0mm 0mm 0mm" toolAttachPoint="0mm 0mm 0mm" wcs="0mm 0mm 0mm">
+    <machineAssembly></machineAssembly>
+  </simulation>
+
+  <post>
+    <postProcessor>user://grbl_tsenc_v1.cps</postProcessor>
+    <postProperties>
+      <Parameters/>
+    </postProperties>
+    <setupSheet></setupSheet>
+    <setupSheetProperties/>
+    <outputFolder>C:/Users/alber/OneDrive/Documenti/Fusion 360/NC Programs</outputFolder>
+  </post>
+
+  <axis actuator="linear" coordinate="X" homePosition="0mm" id="X" link="table" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="0mm 400mm" rapidFeed="0mm/min" resolution="0mm"/>
+
+  <axis actuator="linear" coordinate="Y" homePosition="0mm" id="Y" link="table" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="0mm 600mm" rapidFeed="0mm/min" resolution="0mm"/>
+
+  <axis actuator="linear" coordinate="Z" homePosition="0mm" id="Z" link="table" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="0mm 160mm" rapidFeed="0mm/min" resolution="0mm"/>
+
+  <spindle axis="0 0 1" maximumSpeed="24000rpm" minimumSpeed="0rpm">
+    <description></description>
+  </spindle>
+
+</machine>
