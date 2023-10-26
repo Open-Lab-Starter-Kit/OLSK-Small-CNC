@@ -82,3 +82,11 @@ Hardware design, CAD and PCB files, BOM, settings and other technical or design 
 Assembly manual, pictures, videos, presentations, description text and other type of media are released under the following license:
 
 - Creative-Commons-Attribution-ShareAlike 4.0 International - **[CC BY-SA 4.0](LICENSE_CC_BY_SA_4.0.txt)**
+
+Previous Version
+--
+
+**[OLSK Small CNC Milling Machine V1](OLSK_Small_CNC_V1)**
+<br> <br>
+<img src="media/OLSK-Small-CNC2.jpg" width="30%">
+
