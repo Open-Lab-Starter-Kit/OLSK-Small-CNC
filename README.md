@@ -48,11 +48,14 @@ OLSK Small CNC has been designed and built by **[InMachines Ingrassia GmbH](http
 
 <be>
 
-Machine design:
+Machine main body design:
 - **[Rahul S. Rajan](https://www.linkedin.com/in/rahulsrajan/?originalSubdomain=de)**
 
-Tool Changer design:
+Automatic Tool Changer design:
 - **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
+
+PCB Design: 
+- **[Wilhelm Schütze](http://fabacademy.org/archives/2015/sa/students/schutze.wilhelm/index.html)**
 
 
 The machine is part of the **[Open Lab Starter Kit (OLSK)](https://www.inmachines.net/open-lab-starter-kit)** group of open source digital fabrication machines.
