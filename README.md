@@ -39,6 +39,7 @@ Files
 - **[CAD](CAD)**
 - **[Firmware](Firmware)**
 - **[PCB](https://github.com/Open-Lab-Starter-Kit/OLSK-Electronics/tree/main/Laser_CNC_Board_V3-5)**
+- **[Wiring Schematic](OLSK_Small_CNC_V2_Wiring.pdf)**
   
 Author
 --
