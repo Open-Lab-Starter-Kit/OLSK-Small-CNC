@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+#root {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+/* #renderWindow {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+} */
+.header {
+    display: block;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: auto;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.expanded {
+    background-color: #000000;
+    border: 2px solid black;
+    color: white;
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    width: auto;
+    margin-right: 10px;
+}
+
+.stepNaviBtn {
+    background-color: rgb(255, 255, 255);
+    border: 0px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 100%;
+    text-align: left;
+}
+
+.stepNaviBtn:hover {
+    background-color: #d6d6d6;
+    color: rgb(0, 0, 0);
+}
+
+.stepNaviBtn:active {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.parts {
+    background-color: rgb(255, 255, 255);
+    border: 0px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: 100%;
+    text-align: left;
+}
+
+.parts:hover {
+    background-color: #d9e3e3;
+    color: rgb(0, 0, 0);
+}
+
+.parts:active {
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.hamburger {
+    border: 1;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 00%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.hamburger:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.active {
+    background-color: #000000;
+    color: white;
+}
+
+
+#app {
+    /*    display: block;
+ */
+    margin-top: 20px;
+    height: 100%;
+}
+
+#partsOut {
+    position: absolute;
+    /*  display: none; */
+    top: 20px;
+    right: 20px;
+}
+
+.remarksCollapsible {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    /* White text */
+    padding: 8px 10px;
+    /* Some padding */
+    font-size: 15px;
+    /* Set a font size */
+    font-family: Barlow;
+    cursor: pointer;
+    /* Mouse pointer on hover */
+    width: auto;
+    margin-right: 10px;
+}
+
+.remarksContent {
+    position: absolute;
+    padding: 0 10px;
+    /* display: none; */
+    overflow: hidden;
+    font-family: Barlow;
+    font-size: medium;
+    top: 60px;
+
+}
+
+.remarksContent li {
+    list-style-type: none;
+    padding: 10px;
+    width: 180px;
+    background-color: #ffffff;
+}
+
+.howToBoxContent {
+    position: absolute;
+    padding: 0 10px;
+    /* display: none; */
+    overflow: hidden;
+    font-family: Barlow;
+    font-size: medium;
+    top: 60px;
+    text-decoration: none;
+}
+
+.howToBoxContent li {
+    list-style-type: none;
+    /*     padding: 10px;
+ */
+    width: 180px;
+    background-color: #ffffff;
+}
+
+.howToBoxContent li a {
+    list-style-type: none;
+    /* padding: 10px; */
+    width: 180px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.infoColumn {
+    display: block;
+    position: absolute;
+    flex: 0.5;
+    float: left;
+    width: 220px;
+    height: calc(100% - 160px);
+    overflow: auto;
+    padding-right: 10px;
+
+}
+
+.stepNavi {
+    position: fixed;
+    flex: 1;
+    padding: 16px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: calc(100% - 110px);
+
+}
+
+.stepNavi ul {
+    overflow: auto;
+}
+
+.stepNavi li {
+    font-family: Barlow;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+h2 {
+    margin: 0px;
+    float: left;
+}
+
+.navMenu {
+    margin-left: auto;
+    /*     display: inline;
+    float: right;
+    overflow: hidden;
+    font-family: Barlow;
+    font-size: medium;
+    color: rgb(0, 0, 0); */
+}
+
+.navMenu ul {
+    display: flex;
+    padding: 0;
+}
+
+.navMenu li {
+    list-style-type: none;
+    margin: 0 0.5rem;
+}
+
+/* Style the links inside the navigation bar */
+.navMenu li a {
+    /*     float: left;
+            display: inline; */
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: transparent;
+
+}
+
+/* Change the color of links on hover */
+.navMenu li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* Add an active class to highlight the current page */
+.navMenu li a.active {
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    border-width: 2px;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navMenu .icon {
+    display: none;
+}
+
+
+.navLogo {
+    height: 25px;
+    /*     float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.Title {
+    text-align: center;
+    align-self: center;
+    margin-left: 80px;
+    font-family: Barlow;
+    font-size: 30px;
+    display: flex;
+    overflow: hidden;
+}
+
+/* #info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+}
+ */
+.currentStepBar {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+#stepTitleArea {
+    font-family: Barlow;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+#stepControl {
+    position: relative;
+    display: block;
+    float: right;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+#previousStep {
+    display: none;
+}
+
+#viewArea {
+    margin-left: auto;
+    position: relative;
+    display: block;
+    width: calc(100% - 220px);
+    height: 100%;
+    padding: 10px;
+    z-index: 5;
+}
+
+#viewAreaPlaceholder {
+    margin-left: auto;
+    position: relative;
+    /* display: flex; */
+    width: calc(100% - 500px);
+    height: 200%;
+    padding: 10px;
+    z-index: 5;
+}
+
+/* #3DViewer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: block;
+    top: 0;
+    left: 0;
+} */
+
+.backgroundLoad {
+    position: relative;
+    /* margin-left: calc(100% - 700px); */
+    margin-top: -400px;
+    padding: 10px;
+    z-index: -3;
+    font-family: Barlow;
+    font-size: medium;
+    text-align: center;
+}
+
+#currentStepArea {
+    margin-left: 240px;
+    /*     display: block; */
+    margin-right: 20px;
+    height: 100%;
+    height: calc(100% - 150px);
+}
+
+#HowToArea {
+    margin-left: 370px;
+    /*     display: block; */
+    margin-right: 20px;
+    height: calc(100% - 100px);
+}
+
+#HowToImgArea {
+    margin-left: auto;
+    /*     position: absolute;
+    display: block; */
+    float: left;
+    /*     display: block; */
+    margin-right: 20px;
+    /* width: calc(100% - 370px); */
+    height: calc(100%);
+    width: calc(70%);
+    padding: 10px;
+}
+
+#HowToTextArea {
+    /*     margin-left: auto;
+    position: relative;
+    display: flex; */
+    float: left;
+    margin-right: 20px;
+    height: calc(100% - 100px);
+    width: 20%;
+    padding: 10px;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+.HowToTextAreaList {
+    list-style-type: none;
+    padding-bottom: 10px;
+    /* Remove bullets */
+}
+
+.HowToTitle {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
+.stepPartsArea {
+    margin-top: 10px;
+    display: block;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+.stepRemarksArea {
+    margin-top: 30px;
+    display: block;
+    font-family: Barlow;
+    font-size: medium;
+}
+
+.stepRemarksArea li {
+    padding-bottom: 10px;
+
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 680px) {
+    .navMenu ul {
+        display: none;
+    }
+
+    .Title {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .menu {
+        display: flex;
+        align-items: center;
+    }
+
+    #HowToImgArea {
+        width: 100%;
+    }
+
+    #HowToTextArea {
+        width: 100%;
+    }
+
+}
+
+/*Scroll Bar Styling*/
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(227, 227, 227);
+    /*     box-shadow: inset 0 0 5px grey;
+ */
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(159, 159, 159);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(79, 79, 79);
+}

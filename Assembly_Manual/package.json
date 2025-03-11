@@ -1,0 +1,40 @@
+{
+  "name": "threejs-journey-exercise",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://open-lab-starter-kit.github.io/Online-Documentation/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pre-deploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "3.0",
+    "gh-pages": "^6.1.1",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.86.3",
+    "@react-three/fiber": "^8.9.2",
+    "@react-three/postprocessing": "2.7",
+    "axios": "^1.6.8",
+    "postprocessing": "6.29",
+    "r3f-perf": "^6.6.3",
+    "react": "18.2",
+    "react-collapsed": "^4.1.2",
+    "react-dom": "18.2",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0",
+    "styled-components": "^6.1.6",
+    "suspend-react": "^0.1.3",
+    "three": "^0.148.0",
+    "three-mesh-bvh": "^0.7.4",
+    "vite-plugin-glsl": "^1.1.2",
+    "zustand": "^4.5.2",
+    "svg-pan-zoom": "github:bumbu/svg-pan-zoom"
+  }
+}
