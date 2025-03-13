@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { useCollapse } from "react-collapsed";
 import StepRemarks from "/Containers/StepRemarks";
-import { LuAlertCircle } from "react-icons/lu";
+//import { LuAlertCircle } from "react-icons/lu";
 import { MdOutlineExpandLess, MdOutlineExpandMore } from "react-icons/md";
 
 
@@ -15,7 +15,7 @@ export default function RemarksBox() {
         <button type="button" {...getToggleProps({
             onClick: () => { setExpanded((prevExpanded) => !prevExpanded) },
         })} className="remarksCollapsible" style={{ position: 'absolute', top: '20px', left: '20px' }}>
-            {isExpanded ? <><LuAlertCircle /> <MdOutlineExpandLess /></> : <><LuAlertCircle /> <MdOutlineExpandMore /></>}
+            {isExpanded ? <> <MdOutlineExpandLess /></> : <> <MdOutlineExpandMore /></>}
         </button>
         <div ref={remarks} className="remarksContent" {...getCollapseProps()}>
             <StepRemarks />

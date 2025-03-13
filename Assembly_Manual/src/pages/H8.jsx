@@ -10,7 +10,7 @@ import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUti
 
 export default function H8() {
 
-    const howToModel = useGLTF('./FirstTestHowTo.glb')
+    const howToModel = useGLTF('./H8_Use_Teflon_Tape.glb')
     const animation = useAnimations(howToModel.animations, howToModel.scene)
     let { setClickedPath } = useContext(ModelContext)
 

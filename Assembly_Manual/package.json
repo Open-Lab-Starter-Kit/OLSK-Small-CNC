@@ -1,9 +1,9 @@
 {
-  "name": "threejs-journey-exercise",
+  "name": "olsk-small-cnc-v3",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://open-lab-starter-kit.github.io/Online-Documentation/",
+  "homepage": "https://open-lab-starter-kit.github.io/OLSK-Small-CNC/Assembly_Manual",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

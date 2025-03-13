@@ -10,7 +10,7 @@ import * as BufferGeometryUtils from 'three/examples/jsm/utils/BufferGeometryUti
 
 export default function H10() {
 
-    const howToModel = useGLTF('./FirstTestHowTo.glb')
+    const howToModel = useGLTF('./H10_Use_Automatic_Fasteners.glb')
     const animation = useAnimations(howToModel.animations, howToModel.scene)
     let { setClickedPath } = useContext(ModelContext)
 

@@ -8,7 +8,7 @@ import H5 from './pages/H5.jsx';
 import H6 from './pages/H6.jsx';
 import H7 from './pages/H7.jsx';
 import H8 from './pages/H8.jsx';
-import H9 from './pages/H9.jsx';
+import H9 from './pages/H9-1.jsx';
 import H10 from './pages/H10.jsx';
 import H11 from './pages/H11.jsx';
 

@@ -16,7 +16,7 @@ import StepRemarks from './Containers/StepRemarks.jsx'
 import { Outline, EffectComposer, Selection } from '@react-three/postprocessing'
 import RemarksBox from './Components/RemarksBox.jsx'
 import HowToBox from './Components/HowToBox.jsx'
-import { LuAlertCircle } from "react-icons/lu";
+//import { LuAlertCircle } from "react-icons/lu";
 import { MdViewInAr } from "react-icons/md";
 import CameraPositions from './Components/CameraPositions.jsx'
 import useInterface from './stores/useInterface.jsx'

@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from 'react'
 import { ModelContext } from '/Components/ModelContext.jsx';
 import axios from 'axios';
-import { LuAlertCircle } from "react-icons/lu";
+//import { LuAlertCircle } from "react-icons/lu";
 
 
 let counter = 1;
@@ -55,7 +55,7 @@ export default function StepRemarks() {
     return <>
         {stepRemarks ? <div>
             <div id='RemarksTitle' style={{ margin: 'auto', display: 'inline', alignContent: 'baseline' }} >
-                <h3> <LuAlertCircle /> Remarks</h3> <br />
+                <h3> Remarks</h3> <br />
             </div>
             <ul>
                 {stepRemarks.map((name, index) => <li key={index}> {name}</li>)}
