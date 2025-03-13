@@ -1,7 +1,7 @@
 
-<div align="center"><h1 style=align="center">OLSK Small CNC V2</h1></div>
+<div align="center"><h1 style=align="center">OLSK Small CNC V3</h1></div>
 
-<div align="center"><img src="media/OLSK_Small_CNC_V2_1_low-res.png" width="100%"></div>
+<div align="center"><img src="media/OLSK_SmallCNC_V3_1.png" width="100%"></div>
 <div align="center"><i>Open Source CNC Milling machine - Small version - Open Lab Starter Kit</i></div>
 
 <br>
@@ -9,9 +9,9 @@
 Introduction
 --
 
-The OLSK Small CNC V2 is a desktop CNC milling machine with an innovative open-source tool changer, one of the first in an open-source machine. Its compact and sturdy design with aluminum frame has a milling volume of 400 x 500 x 140 mm (X x Y x Z). The Z-axis is compact, with a minimum distance to the X-axis linear guides, giving the milling more stability and sturdiness. The machine also includes a Z height tool sensor and homing with inductive sensors.
+The OLSK Small CNC V3 is a desktop CNC milling machine with an innovative open-source tool changer, one of the first in an open-source machine. 
 
-<img src="media/OLSK_Small_CNC_V2_Highlights_low-res.jpg" width="100%">
+<img src="media/OLSK_Small_CNC_V3_Highlights_low-res.jpg" width="100%">
 
 
 The Assembly Workbook
@@ -19,27 +19,15 @@ The Assembly Workbook
 
 All OLSK machines are open source and have the BOM and necessary files available in this repository for replication. The assembly of parts is also documented in a workbook where each step contains a list of parts, tools and instruction remarks, following a logic order to provide a smooth assembly.
 
-Specifications V1
---
-
-- milling volume: 400 x 500 x 140 mm
-- frame: solid aluminum
-- bed: CNC milled aluminum
-- firmware: Grbl Hal
-- additional: tool changer, coolant system
-- Z height tool sensor
-
-<img src="media/OLSK_Small_CNC_V2_Montage_low-res.jpg" width="100%">
+- **[Assembly Manual](https://open-lab-starter-kit.github.io/OLSK-Small-CNC/)**
 
 
 Files
 --
 
-- **[Assembly Workbook](OLSK_Small_CNC_V2_Workbook.pdf)**
-- **[CAD](CAD)**
-- **[Firmware](Firmware)**
-- **[PCB](https://github.com/Open-Lab-Starter-Kit/OLSK-Electronics/tree/main/Laser_CNC_Board_V3-5)**
-- **[Wiring Schematic](OLSK_Small_CNC_V2_Wiring.pdf)**
+- **[CAD](cad)**
+- **[Firmware](firmware)**
+- **[Wiring Schematic](OLSK_Small_CNC V3_WiringSchematic.pdf)**
   
 Author
 --
@@ -50,10 +38,7 @@ OLSK Small CNC has been designed and built by **[InMachines Ingrassia GmbH](http
 
 <be>
 
-Machine main body design:
-- **[Rahul S. Rajan](https://www.linkedin.com/in/rahulsrajan/?originalSubdomain=de)**
-
-Automatic Tool Changer design:
+Machine design:
 - **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
 
 PCB Design: 
