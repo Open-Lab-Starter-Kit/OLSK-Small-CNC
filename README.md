@@ -24,6 +24,8 @@ All OLSK machines are open source and have the BOM and necessary files available
 Specifications V3
 --
 
+- machine external dimensions: W740mm x D960mm x H800mm (~H1600mm open door)
+- working area: W400mm x D530mm
 - Automatic tool changer (capacity: 10 tools)
 - Automatic tool measurement
 - Automatic tool cleaning
