@@ -25,7 +25,7 @@ Specifications V3
 --
 
 - machine external dimensions: W740mm x D960mm x H800mm (~H1600mm open door)
-- working area: W400mm x D530mm
+- working area: 400mm x 600mm x 150mm Width(X) x Depth(Y) x Height(Z)
 - Automatic tool changer (capacity: 10 tools)
 - Automatic tool measurement
 - Automatic tool cleaning
