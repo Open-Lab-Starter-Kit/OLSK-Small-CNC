@@ -1,0 +1,52 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: OLSK-Small-CNC
+Upstream-Contact: Daniele Ingrassia <daniele@inmachines.net>
+Source: https://github.com/Open-Lab-Starter-Kit/OLSK-Small-CNC.git
+
+#################
+# OLSK Small CNC V3
+#################
+
+Files:
+    Assembly_Manual/**
+    firmware/**
+    settings/**
+    .gitattributes
+    README.md
+Copyright:
+    Daniele Ingrassia <daniele@inmachines.net>
+    Tobias Redlich <tobias.redlich@hsu-hh.de>
+License: AGPL-3.0-or-later
+
+Files:
+    Assembly_Manual/public/**
+    media/**
+Copyright:
+    Daniele Ingrassia <daniele@inmachines.net>
+    Tobias Redlich <tobias.redlich@hsu-hh.de>
+License: CC-BY-SA-4.0
+
+Files: Assembly_Manual/public/fonts/**
+Copyright: Various authors
+License: LicenseRef-Magenta
+# The fonts in this directory are under various licenses.
+# Please refer to the license notice in each individual file.
+
+Files:
+    OLSK_Small_CNC_V3-BOM.xlsx
+    OLSK_Small_CNC-V3_Wiring_Schematic.pdf
+    cad/**
+Copyright:
+    Daniele Ingrassia <daniele@inmachines.net>
+    Tobias Redlich <tobias.redlich@hsu-hh.de>
+License: CERN-OHL-W-2.0
+
+Files:
+    LICENSE_CC_BY_SA_4.0.txt
+    LICENSE_CERN_OHL_W_V2.txt
+Copyright: NONE
+License: CC0-1.0
+
+#########################
+# OLSK V2 and OLSK V1 TBD
+#########################

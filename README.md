@@ -9,7 +9,7 @@
 Introduction
 --
 
-The OLSK Small CNC V3 is a desktop CNC milling machine with an innovative open-source tool changer, one of the first in an open-source machine. 
+The OLSK Small CNC V3 is a desktop CNC milling machine with an innovative open-source tool changer, one of the first in an open-source machine.
 
 <img src="media/OLSK_Small_CNC_V3_Highlights_low-res.jpg" width="100%">
 
@@ -47,7 +47,7 @@ Files
 - **[Settings](settings)**
 - **[BOM](OLSK_Small_CNC_V3-BOM.xlsx)**
 - **[Wiring Schematic](OLSK_Small_CNC_V3_WiringSchematic.pdf)**
-  
+
 Author
 --
 
@@ -60,7 +60,7 @@ OLSK Small CNC has been designed and built by **[InMachines Ingrassia GmbH](http
 Machine design:
 - **[Daniele Ingrassia](https://www.linkedin.com/in/danieleingrassia/)**
 
-PCB Design: 
+PCB Design:
 - **[Wilhelm Schütze](http://fabacademy.org/archives/2015/sa/students/schutze.wilhelm/index.html)**
 
 
@@ -89,6 +89,13 @@ Assembly manual, pictures, videos, presentations, description text and other typ
 
 - Creative-Commons-Attribution-ShareAlike 4.0 International - **[CC BY-SA 4.0](LICENSE_CC_BY_SA_4.0.txt)**
 
+Copyright
+--
+
+- Daniele Ingrassia, InMachines Ingrassia GmbH
+
+- Tobias Redlich, Helmut-Schmidt-Universität/Universität der Bundeswehr Hamburg
+
 Previous Version
 --
 
@@ -101,4 +108,3 @@ The previous versions of OLSK machines will always be available.
 **[OLSK Small CNC Milling Machine V1](OLSK_Small_CNC_V1)**
 <br> <br>
 <img src="media/OLSK-Small-CNC2.jpg" width="30%">
-
